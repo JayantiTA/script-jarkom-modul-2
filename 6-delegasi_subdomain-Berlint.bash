@@ -25,7 +25,7 @@ echo -e ";
 ;
 @             IN      NS      operation.wise.f02.com.
 @             IN      A       192.200.3.3    ; IP EDEN
-www           IN      CNAME   operations.wise.f02.com.
+www           IN      CNAME   operation.wise.f02.com.
 " > /etc/bind/delegasi/operation.wise.f02.com;
 
 service bind9 restart;

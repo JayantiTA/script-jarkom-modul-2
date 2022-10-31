@@ -16,7 +16,7 @@ echo -e ";
 ;
 @             IN      NS      operation.wise.f02.com.
 @             IN      A       192.200.3.3    ; IP EDEN
-www           IN      CNAME   operations.wise.f02.com.
+www           IN      CNAME   operation.wise.f02.com.
 strix         IN      A       192.200.3.3    ; IP EDEN
 www.strix     IN      CNAME   strix
 " > /etc/bind/delegasi/operation.wise.f02.com;
